@@ -8,7 +8,7 @@ while True:
     user_num = int(input("Ваша догадка: "))
     attempt += 1
     if attempt > 2:
-        print('Ты проиграл')
+        print('Ты проиграл.')
         break
     if user_num == x:
         print(f"Ты угадал число, молодец!\nКоличество попыток: {attempt}\nСпасибо за игру")
